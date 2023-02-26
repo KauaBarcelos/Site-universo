@@ -31,10 +31,11 @@ header {
 header>h1{
     color: #ffffff;
     text-align: center;
-    padding: 15px;
+    padding-top: 50px;
     font-weight: lighter;
     font-family: var(--font3);
     text-shadow: 2px 2px 3px #00000073;
+    font-size: 3em;
 }
 
 header>p {
