@@ -60,9 +60,8 @@ nav>a:hover {
 
 section {
     padding-top: 15vh;
-    /* padding-bottom: 15vh; */
     line-height: 2em;
-    padding: 10px;
+    padding-left: 10px;
     font-family: var(--font1);
     font-size: 1.5em;
     height: 30vh;
