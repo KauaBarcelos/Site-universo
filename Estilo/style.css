@@ -36,11 +36,13 @@ header>h1{
     font-family: var(--font3);
     text-shadow: 2px 2px 3px #00000073;
     font-size: 2em;
+    font-weight: bolder;
 }
 
 header>p {
     padding-bottom: 50px;
     color: white;
+    font-size: 1.1em;
     text-align: center;
     font-weight: bolder;
 }
