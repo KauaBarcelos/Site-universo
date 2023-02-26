@@ -35,7 +35,7 @@ header>h1{
     font-weight: lighter;
     font-family: var(--font3);
     text-shadow: 2px 2px 3px #00000073;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 header>p {
@@ -75,7 +75,6 @@ section>h2{
     font-family: var(--font3);
     font-weight: lighter;
     color: white;
-    padding: 10px;
     margin: auto;
     width: 300px; 
 }
