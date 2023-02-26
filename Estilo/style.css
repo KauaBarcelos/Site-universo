@@ -65,7 +65,6 @@ section {
     font-family: var(--font1);
     font-size: 1.5em;
     height: 30vh;
-    
 }
 
 section>h2{
@@ -77,7 +76,7 @@ section>h2{
     color: white;
     padding: 10px;
     margin: auto;
-    width: 50vh;  
+    width: 300px; 
 }
 
 section.normal {
@@ -114,7 +113,7 @@ section#img4{
 
 section#img5{
     background-image: url('../imge/imagem5.jpg');
-    background-position: left center;
+    background-position: center center;
 }
 
 footer {
