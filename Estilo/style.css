@@ -2,8 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
 :root {
     --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Alice', serif;
     --font3: 'Sriracha', cursive;
 
 }
@@ -53,6 +56,7 @@ nav>a {
     text-align: left;
     color: #ffffff;
     font-weight: bolder;
+    font-family: var(--font1);
 }
 
 nav>a:hover {
@@ -66,7 +70,7 @@ section {
     line-height: 2em;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: var(--font1);
+    font-family: var(--font2);
     font-size: 1.5em;
     height: 30vh;
 }
@@ -92,7 +96,7 @@ section.normal {
 section.imagem {
     position: relative;
     background-color: rgb(29, 26, 26);
-    box-shadow: 3px 3px 13px 0px #00000059;
+    box-shadow: inset 3px 3px 13px 0px #00000059;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -116,7 +120,19 @@ section#img4{
 
 section#img5{
     background-image: url('../imge/imagem5.jpg');
+    background-position: center center;
+}
+section#img6{
+    background-image: url('../imge/imagem6.jpg');
     background-position: left center;
+}
+
+
+a#saibaMais{
+    color: blue;
+    font-family: var(--font2);
+    text-decoration: none;
+    font-weight: normal;
 }
 
 footer {
@@ -128,5 +144,6 @@ footer {
 footer>p, a {
     text-align: center;
     color: white;
-    font-family: var(--font1);
+    font-weight: bolder;
+    font-family: var(--font2);
 }
